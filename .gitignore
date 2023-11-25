@@ -60,3 +60,6 @@
 /drush
 /drupal.phar
 /drupal
+
+# Ignore theme folders
+/web/themes/contrib/civictheme/node_modules
