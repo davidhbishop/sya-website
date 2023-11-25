@@ -1,0 +1,50 @@
+uuid: 57327a43-40db-49c7-b02e-9aa189c18252
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.civictheme_quote.field_c_p_author
+    - field.field.paragraph.civictheme_quote.field_c_p_content
+    - field.field.paragraph.civictheme_quote.field_c_p_theme
+    - field.field.paragraph.civictheme_quote.field_c_p_vertical_spacing
+    - paragraphs.paragraphs_type.civictheme_quote
+  module:
+    - options
+    - text
+_core:
+  default_config_hash: 262QfIIBB5zMkGCFgBVcJW64_zAmNLdKiciflO0_bm0
+id: paragraph.civictheme_quote.default
+targetEntityType: paragraph
+bundle: civictheme_quote
+mode: default
+content:
+  field_c_p_author:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_c_p_content:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_c_p_theme:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_c_p_vertical_spacing:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

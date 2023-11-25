@@ -1,0 +1,43 @@
+uuid: 24058c8f-374a-44f6-ae8a-c787595b5d68
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.civictheme_component_block
+    - field.field.block_content.civictheme_component_block.field_c_b_components
+  module:
+    - paragraphs
+_core:
+  default_config_hash: vN6Xl_aC-7eglaXM7MXMDjtcOkE1xkBStI6x2OgpPt0
+id: block_content.civictheme_component_block.default
+targetEntityType: block_content
+bundle: civictheme_component_block
+mode: default
+content:
+  field_c_b_components:
+    type: paragraphs
+    weight: 26
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,29 @@
+uuid: 66d8946f-56cd-44d6-b700-662010942ea5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.civictheme_audio.field_c_m_audio_file
+    - media.type.civictheme_audio
+  module:
+    - file
+_core:
+  default_config_hash: C8NiLilNrgq6FdbJ0hiQFzyf77LZ5eu_l0DHne5Rbvk
+id: media.civictheme_audio.default
+targetEntityType: media
+bundle: civictheme_audio
+mode: default
+content:
+  field_c_m_audio_file:
+    label: visually_hidden
+    weight: 0
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

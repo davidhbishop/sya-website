@@ -1,0 +1,12 @@
+uuid: 051e5eff-5545-4031-b847-2b11de496eda
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: meiht8chDttfg2jWqCReo5Bg8p8DcwkrrdQEpHw7OfE
+id: civictheme_snippet
+label: Snippet
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,32 @@
+uuid: 0bad275d-2213-47d8-837e-00bd8dcab41e
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: vDbrxCisDwP-4vyMYq3HQBvMgN5uMe2L-baDnoTEar4
+id: paragraph.field_c_p_list_content_type
+field_name: field_c_p_list_content_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: all
+      label: Any
+    -
+      value: civictheme_page
+      label: Page
+    -
+      value: civictheme_event
+      label: Event
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: c0732132-332f-49c0-ad0a-f79d2b390e52
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.civictheme_search
+    - field.field.block_content.civictheme_search.field_c_b_link
+  module:
+    - link
+_core:
+  default_config_hash: wSp8eLWqTuLktmcMXk7HdGD_FLd7FbOB7_LxQqixttY
+id: block_content.civictheme_search.default
+targetEntityType: block_content
+bundle: civictheme_search
+mode: default
+content:
+  field_c_b_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

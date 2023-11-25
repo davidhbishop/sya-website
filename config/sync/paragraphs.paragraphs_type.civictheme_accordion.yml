@@ -1,0 +1,12 @@
+uuid: 12c7218b-7ae4-4556-9b85-1d9da3e85216
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 38TB2xfEAOjYgyyBTc1LNvOAfPT9qwlOnXq5zo9ZPwQ
+id: civictheme_accordion
+label: Accordion
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,29 @@
+uuid: 7c41f8d4-a6a2-42f9-8d0c-204b2f827af0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.civictheme_icon.field_c_m_icon
+    - media.type.civictheme_icon
+_core:
+  default_config_hash: 8IMFVikuJENiVggPNJkGmY1iluS6pAyLynUTmLEDVTc
+id: media.civictheme_icon.media_library
+targetEntityType: media
+bundle: civictheme_icon
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_c_m_icon: true
+  path: true
+  status: true
+  uid: true

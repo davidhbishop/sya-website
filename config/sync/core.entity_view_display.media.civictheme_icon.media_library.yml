@@ -1,0 +1,34 @@
+uuid: 96e60731-8adc-4a05-9e44-662534941d80
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.civictheme_icon.field_c_m_icon
+    - image.style.civictheme_medium
+    - media.type.civictheme_icon
+  module:
+    - image
+_core:
+  default_config_hash: es66q6GE6noKFztxbCza89idxYxDii3kygvV-53nARQ
+id: media.civictheme_icon.media_library
+targetEntityType: media
+bundle: civictheme_icon
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_style: civictheme_medium
+      image_link: ''
+      image_loading:
+        attribute: lazy
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_c_m_icon: true
+  name: true
+  uid: true

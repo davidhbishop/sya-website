@@ -1,0 +1,38 @@
+uuid: 9dd1308f-401e-4950-8713-2315be40b426
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.civictheme_remote_video.field_c_m_oembed_video
+    - field.field.media.civictheme_remote_video.field_c_m_transcript
+    - field.field.media.civictheme_remote_video.field_c_m_transcript_link
+    - image.style.civictheme_medium
+    - media.type.civictheme_remote_video
+  module:
+    - image
+_core:
+  default_config_hash: f3JDQAYRxZn3M6jnkPLMYoPSadRHnE1ex_FfxY1Sp2E
+id: media.civictheme_remote_video.media_library
+targetEntityType: media
+bundle: civictheme_remote_video
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: civictheme_medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_c_m_oembed_video: true
+  field_c_m_transcript: true
+  field_c_m_transcript_link: true
+  name: true
+  uid: true

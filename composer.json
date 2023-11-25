@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.7",
         "drupal/civictheme": "^1.6",
         "drupal/components": "*",
         "drupal/core-composer-scaffold": "^10.1",
@@ -40,6 +41,12 @@
         "sort-packages": true
     },
     "extra": {
+        "patches": {
+            "drupal/core": {
+                "Layout builder cannot recover on missing layout": "https://www.drupal.org/files/issues/2023-07-16/3204271-20-missing-layout-exception.patch"
+            }
+        },
+        "enable-patching": true,
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"

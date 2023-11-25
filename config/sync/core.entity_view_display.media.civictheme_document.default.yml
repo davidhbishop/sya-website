@@ -1,0 +1,29 @@
+uuid: c4378b48-48ef-452e-8ae8-b15f68c09a35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.civictheme_document.field_c_m_document
+    - media.type.civictheme_document
+  module:
+    - file
+_core:
+  default_config_hash: QH4-Zwk3_OiGBZp_BfZHvzL41hJMr-ge9pCGIqNrZhc
+id: media.civictheme_document.default
+targetEntityType: media
+bundle: civictheme_document
+mode: default
+content:
+  field_c_m_document:
+    label: visually_hidden
+    weight: 0
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

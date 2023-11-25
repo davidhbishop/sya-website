@@ -1,0 +1,12 @@
+uuid: 89dd7c7e-4093-465e-a6df-207b82575a67
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: K7fV0i12auNJ2YSVTq8P8PpIhco-WGRgd6I95SdcwKQ
+id: civictheme_manual_list
+label: 'Manual list'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

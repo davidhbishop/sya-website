@@ -1,0 +1,29 @@
+uuid: 59900623-10db-473b-9cf5-e546e5e2b8e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.civictheme_icon.field_c_m_icon
+    - media.type.civictheme_icon
+  module:
+    - file
+_core:
+  default_config_hash: xsTWIySv4SINNKW-j1007t0UXS7HC_I8-L4NQNv6vT0
+id: media.civictheme_icon.default
+targetEntityType: media
+bundle: civictheme_icon
+mode: default
+content:
+  field_c_m_icon:
+    label: visually_hidden
+    weight: 0
+    settings:
+      use_description_as_link_text: false
+    third_party_settings: {  }
+    type: file_default
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

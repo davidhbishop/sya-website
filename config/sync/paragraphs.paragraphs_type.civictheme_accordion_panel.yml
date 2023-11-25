@@ -1,0 +1,12 @@
+uuid: 1b09c03c-333d-4991-939f-1da9b6939e69
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bOgRXaOWsw0zPnzZvYybMVVn62_Txuuo6RrJd_l9zI8
+id: civictheme_accordion_panel
+label: 'Accordion panel'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

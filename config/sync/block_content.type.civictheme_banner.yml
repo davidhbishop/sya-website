@@ -1,0 +1,10 @@
+uuid: 8dca3ab8-0436-455a-8dc8-f2595c03e553
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vJkH4nl5gVI19FAg7LpBQT-Ivh0CztYQWMYEZlveG8g
+id: civictheme_banner
+label: Banner
+revision: 0
+description: ''

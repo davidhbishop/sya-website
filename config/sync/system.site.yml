@@ -4,7 +4,7 @@ langcode: en
 uuid: 01de0538-7ed1-470d-8082-49e99605080e
 name: 'Drush Site-Install'
 mail: admin@example.com
-slogan: ''
+slogan: 'A design system by Salsa Digital'
 page:
   403: ''
   404: ''

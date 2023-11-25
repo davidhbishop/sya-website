@@ -1,0 +1,16 @@
+uuid: cf7ddcc8-1418-4123-b2f5-1d6f0cd0a3b5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: J6c94MYj2j0L28dSkyeQFXPeE9p0nu-aejLaft7TYxc
+id: civictheme_audio
+label: Audio
+description: 'A locally hosted audio file.'
+source: file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_c_m_audio_file
+field_map:
+  name: name

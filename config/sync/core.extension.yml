@@ -67,4 +67,5 @@ module:
 theme:
   olivero: 0
   claro: 0
+  civictheme: 0
 profile: standard

@@ -1,0 +1,10 @@
+uuid: 4c0a5304-a735-4896-8581-9958cd10e2c1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rIN9Yks8tPCnVBeXG4v6Q7bGOyCg-8Fxa5wM1xQtuHs
+id: civictheme_social_links
+label: 'Social Links'
+revision: 0
+description: 'List social link icons'
