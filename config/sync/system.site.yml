@@ -2,13 +2,13 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 01de0538-7ed1-470d-8082-49e99605080e
-name: 'Drush Site-Install'
-mail: admin@example.com
-slogan: 'A design system by Salsa Digital'
+name: SYA
+mail: david@sya.org.uk
+slogan: 'All about youth'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

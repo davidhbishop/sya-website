@@ -8,8 +8,8 @@ _core:
   default_config_hash: 2DnUzd-_ZemIxQCOE4FPeQopqMwRBpr_4Yg53_kLLTk
 id: civictheme_primaryadminactions
 theme: civictheme
-region: content
-weight: -3
+region: content_top
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:

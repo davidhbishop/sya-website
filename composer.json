@@ -29,6 +29,21 @@
         "drupal/drupal": "*"
     },
     "minimum-stability": "beta",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
